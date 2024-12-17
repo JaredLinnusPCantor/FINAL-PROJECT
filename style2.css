@@ -1,0 +1,97 @@
+  article[data-type="fruit"]{
+  color: green; }
+  article:first-child { 
+    font-weight: bold;
+	article:last-paragraph {
+    background-color: orange; 
+ body {
+            background-color: grey;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: gold;
+            color: black;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px; 
+            box-shadow: 0 2px 5px black);
+        }
+
+        h2 {
+            color: black;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border-radius: 5px; 
+            margin: 5px 0;
+            transition: background-color 0.2s ease;
+            background-color: pink;
+        }
+
+        li:hover {
+            background-color: yellow;
+        }
+
+        li img {
+            border-radius: 50%; 
+            width: 50px; 
+            height: 50px; 
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border-radius: 10px 10px 0 0; 
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+		 .icon {
+            width: 30px; 
+            height: 30px;
+            display: inline-block;
+            background-image: url('face.png'); 
+            background-size: 150px 30px; 
+            transition: transform 0.3s; 
+        }
+		.icon:hover {
+            transform: scale(1.2) rotate(15deg); 
+            opacity: 1;
+        }
+		  background-size: 150px 30px; 
+            transition: transform 0.3s, opacity 0.3s; 
+            opacity: 0.8; 
